@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HEATEDHAVEN | Luxury Modern Wall Sconces</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0; padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #f7f4ef 0%, #e7dfd5 100%);
+      color: #3c3c3c;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      color: #a1784f;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #8b623e;
+    }
+    header {
+      background-color: #fff;
+      padding: 1rem 2rem;
+      box-shadow: 0 3px 15px rgba(161, 137, 98, 0.3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 1.8rem;
+      color: #a1784f;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    header h1 img {
+      height: 45px;
+      margin-right: 10px;
+    }
+    nav a {
+      margin-left: 2rem;
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    nav a:first-child {
+      margin-left: 0;
+    }
+    .hero {
+      background: url('/mnt/data/IMG_1510.jpeg') no-repeat center center/cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 700;
+      text-shadow: 3px 3px 15px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 0 2rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 3rem auto 4rem auto;
+      padding: 0 1.5rem;
+      flex-grow: 1;
+    }
+    .intro {
+      text-align: center;
+      margin-bottom: 4rem;
+      color: #5b4a38;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .intro p {
+      font-size: 1.25rem;
+      line-height: 1.6;
+    }
+    .featured-products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+      gap: 2.5rem;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(161,137,98,0.25);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(161,137,98,0.4);
+    }
+    .product-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: contain;
+      background: #fefefe;
+      border-bottom: 1px solid #e7dfd5;
+    }
+    .product-info {
+      padding: 1.5rem 2rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .product-title {
+      font-weight: 800;
+      color: #a1784f;
+      font-size: 1.4rem;
+      margin-bottom: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .product-desc {
+      font-size: 1rem;
+      color: #6b5e4f;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+      line-height: 1.5;
+    }
+    .product-link {
+      background-color: #a1784f;
+      color: #fff;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      box-shadow: 0 6px 12px rgba(161,137,98,0.6);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-link:hover {
+      background-color: #8b623e;
+      box-shadow: 0 8px 18px rgba(139,98,62,0.8);
+    }
+    footer {
+      background-color: #fff;
+      padding: 1.2rem 2rem;
+      text-align: center;
+      color: #a1784f;
+      font-weight: 600;
+      letter-spacing: 3px;
+      box-shadow: 0 -2px 12px rgba(0,0,0,0.05);
+    }
+    @media (max-width: 700px) {
+      .hero {
+        font-size: 2rem;
+        height: 320px;
+      }
+      header h1 {
+        font-size: 1.4rem;
+      }
+      nav a {
+        font-size: 0.85rem;
+        margin-left: 1rem;
+      }
+    }
+  </style>
+  <script data-filename="pages/ChatbotStudio" data-linenumber="140" data-visual-selector-id="pages/ChatbotStudio140">
+  window.TwinTechChatbot = {
+    botId: '68aa5aa10901e3f028b40944',
+    clientName: 'HTML FILE',
+    primaryColor: '#4f46e5',
+    position: 'bottom-right'
+  };
+</script>
+<script data-filename="pages/ChatbotStudio" data-linenumber="148" data-visual-selector-id="pages/ChatbotStudio148" src="https://cdn.twintech.ai/chatbot-widget.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>
+    <img src="Screenshot 2025-08-01 at 8.20.55 AM.png" alt="Heated Haven Logo" />
+    HEATEDHAVEN
+  </h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" aria-label="Hero Section">
+  Illuminate Your Space With Warmth & Style
+</section>
+
+<div class="container">
+  <section class="intro">
+    <p>Welcome to HEATEDHAVEN â€” your destination for luxurious, modern wall sconces and home decor that transform any room into a cozy sanctuary.</p>
+  </section>
+
+  <section class="featured-products" aria-label="Featured Products">
+    <article class="product-card">
+      <img src="IMG_1510.jpeg" alt="HEATEDHAVEN Modern Wall Sconce" />
+      <div class="product-info">
+        <h2 class="product-title">HEATEDHAVEN Modern Wall Sconce</h2>
+        <p class="product-desc">Sleek design with warm lighting â€” perfect for bedrooms, living rooms, and hallways.</p>
+        <a href="https://www.amazon.com/Wall-Sconce-Lights-Hardwired-Connectivity/dp/B0F227P5JP" target="_blank" rel="noopener noreferrer" class="product-link">Buy on Amazon</a>
+      </div>
+    </article>
+    <article class="product-card">
+      <img src="Screenshot 2025-08-05 at 1.13.21 PM.png" alt="HEATEDHAVEN Wall Sconce Pair" />
+      <div class="product-info">
+        <h2 class="product-title">HEATEDHAVEN Wall Sconce Set</h2>
+        <p class="product-desc">A pair of elegant wall sconces, perfect for adding symmetry and warm ambiance to your space.</p>
+        <a href="https://www.amazon.com/Wall-Sconce-Lights-Hardwired-Connectivity/dp/B0F227P5JP" target="_blank" rel="noopener noreferrer" class="product-link">Buy on Amazon</a>
+      </div>
+    </article>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 HEATEDHAVEN. All rights reserved.
+</footer>
+
+<!-- TwinTech Chatbot Widget - Start -->
+<div data-filename="pages/ChatbotStudio" data-linenumber="328" data-visual-selector-id="pages/ChatbotStudio328" id="twintech-chatbot-widget" style="position: fixed; bottom: 20px; right: 20px; z-index: 99999; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;"></div>
+
+<style data-filename="pages/ChatbotStudio" data-linenumber="330" data-visual-selector-id="pages/ChatbotStudio330">
+/* TwinTech Chatbot Styles */
+#twintech-chatbot-widget .chat-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #2D8CFF;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 100000;
+}
+
+#twintech-chatbot-widget .chat-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+#twintech-chatbot-widget .chat-window {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 370px;
+    height: 520px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25), 0 0 0 1px rgba(0,0,0,0.05);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    transform-origin: bottom right;
+    animation: fadeInScale 0.3s ease-out;
+}
+
+@keyframes fadeInScale {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+#twintech-chatbot-widget .chat-header {
+    background: #2D8CFF;
+    color: white;
+    padding: 16px 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+    border-radius: 16px 16px 0 0;
+}
+
+#twintech-chatbot-widget .chat-header .bot-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#twintech-chatbot-widget .chat-header .bot-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+#twintech-chatbot-widget .chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#twintech-chatbot-widget .chat-messages::-webkit-scrollbar {
+    width: 8px;
+}
+
+#twintech-chatbot-widget .chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#twintech-chatbot-widget .chat-messages::-webkit-scrollbar-thumb {
+    background: #c8c8c8;
+    border-radius: 10px;
+}
+
+#twintech-chatbot-widget .chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+#twintech-chatbot-widget .chat-input-area {
+    padding: 12px 20px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    gap: 10px;
+    background: white;
+}
+
+#twintech-chatbot-widget .chat-input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 24px;
+    outline: none;
+    font-size: 15px;
+    background: #f9f9f9;
+    transition: border-color 0.2s ease;
+}
+
+#twintech-chatbot-widget .chat-input:focus {
+    border-color: #2D8CFF;
+}
+
+#twintech-chatbot-widget .chat-send-btn {
+    background: #2D8CFF;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twintech-chatbot-widget .chat-send-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+#twintech-chatbot-widget .message {
+    margin-bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    animation: fadeIn 0.3s ease-out;
+}
+
+#twintech-chatbot-widget .message.bot {
+    justify-content: flex-start;
+}
+
+#twintech-chatbot-widget .message.user {
+    justify-content: flex-end;
+}
+
+#twintech-chatbot-widget .message-content {
+    max-width: 80%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+#twintech-chatbot-widget .message.bot .message-content {
+    background: #e5eaf0;
+    color: #333;
+    border-bottom-left-radius: 8px;
+}
+
+#twintech-chatbot-widget .message.user .message-content {
+    background: #2D8CFF;
+    color: white;
+    border-bottom-right-radius: 8px;
+}
+
+#twintech-chatbot-widget .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+#twintech-chatbot-widget .close-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 450px) {
+    #twintech-chatbot-widget .chat-window {
+        width: 90vw;
+        max-width: 340px;
+        height: 80vh;
+        max-height: 500px;
+        bottom: 15px;
+        right: 15px;
+    }
+    #twintech-chatbot-widget .chat-button {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+    #twintech-chatbot-widget .chat-button svg {
+        width: 24px;
+        height: 24px;
+    }
+    #twintech-chatbot-widget .chat-header {
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+    #twintech-chatbot-widget .chat-header .bot-avatar {
+        width: 30px;
+        height: 30px;
+    }
+    #twintech-chatbot-widget .chat-messages {
+        padding: 15px;
+    }
+    #twintech-chatbot-widget .chat-input-area {
+        padding: 10px 15px;
+    }
+    #twintech-chatbot-widget .chat-input,
+    #twintech-chatbot-widget .chat-send-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    #twintech-chatbot-widget .message-content {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+</style>
+
+<script data-filename="pages/ChatbotStudio" data-linenumber="578" data-visual-selector-id="pages/ChatbotStudio578">
+(function() {
+    'use strict';
+    
+    if (window.TwinTechChatbotLoaded) return;
+    window.TwinTechChatbotLoaded = true;
+    
+    const botData = {
+        name: "Customer Support Assistant Bot",
+        avatar_url: "https://base44.app/api/apps/68ab05a6ecc82f6314d86c78/files/7a3adb32f_Screenshot2025-08-24at111308AM.png",
+        initial_greeting: ""
+    };
+
+    if (botData.name && botData.name !== "Chatbot") {
+        botData.initial_greeting = `Hi there! I'm ${botData.name}. How can I help you today?`;
+    } else {
+        botData.initial_greeting = `Hello! How can I help you today?`;
+    }
+    botData.initial_greeting = botData.initial_greeting.replace(/'/g, "\'");
+
+    function initChatbot() {
+        const container = document.getElementById('twintech-chatbot-widget');
+        if (!container) {
+            setTimeout(initChatbot, 100);
+            return;
+        }
+        
+        container.innerHTML = `
+            <button data-filename="pages/ChatbotStudio" data-linenumber="606" data-visual-selector-id="pages/ChatbotStudio606" class="chat-button" onclick="TwinTechChatbot.toggle()">
+                <svg data-filename="pages/ChatbotStudio" data-linenumber="607" data-visual-selector-id="pages/ChatbotStudio607" width="28" height="28" fill="white" viewBox="0 0 24 24">
+                    <path data-filename="pages/ChatbotStudio" data-linenumber="608" data-visual-selector-id="pages/ChatbotStudio608" d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+            </button>
+            <div data-filename="pages/ChatbotStudio" data-linenumber="611" data-visual-selector-id="pages/ChatbotStudio611" class="chat-window">
+                <div data-filename="pages/ChatbotStudio" data-linenumber="612" data-visual-selector-id="pages/ChatbotStudio612" class="chat-header">
+                    <div data-filename="pages/ChatbotStudio" data-linenumber="613" data-visual-selector-id="pages/ChatbotStudio613" class="bot-info">
+                        ${botData.avatar_url ? `<img data-filename="pages/ChatbotStudio" data-linenumber="614" data-visual-selector-id="pages/ChatbotStudio614" src="${botData.avatar_url}" alt="Bot Avatar" class="bot-avatar">` : ''}
+                        <span data-filename="pages/ChatbotStudio" data-linenumber="615" data-visual-selector-id="pages/ChatbotStudio615">${botData.name}</span>
+                    </div>
+                    <button data-filename="pages/ChatbotStudio" data-linenumber="617" data-visual-selector-id="pages/ChatbotStudio617" class="close-btn" onclick="TwinTechChatbot.close()">×</button>
+                </div>
+                <div data-filename="pages/ChatbotStudio" data-linenumber="619" data-visual-selector-id="pages/ChatbotStudio619" class="chat-messages" id="twintech-messages"></div>
+                <div data-filename="pages/ChatbotStudio" data-linenumber="620" data-visual-selector-id="pages/ChatbotStudio620" class="chat-input-area">
+                    <input data-filename="pages/ChatbotStudio" data-linenumber="621" data-visual-selector-id="pages/ChatbotStudio621" type="text" class="chat-input" placeholder="Type your message..." id="twintech-input" onkeypress="TwinTechChatbot.handleKeyPress(event)">
+                    <button data-filename="pages/ChatbotStudio" data-linenumber="622" data-visual-selector-id="pages/ChatbotStudio622" class="chat-send-btn" onclick="TwinTechChatbot.sendMessage()">
+                        <svg data-filename="pages/ChatbotStudio" data-linenumber="623" data-visual-selector-id="pages/ChatbotStudio623" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send">
+                            <path data-filename="pages/ChatbotStudio" data-linenumber="624" data-visual-selector-id="pages/ChatbotStudio624" d="m22 2-7 20-4-9-9-4 20-7Z"/>
+                            <path data-filename="pages/ChatbotStudio" data-linenumber="625" data-visual-selector-id="pages/ChatbotStudio625" d="M22 2 11 13"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        window.TwinTechChatbot = {
+            isOpen: false,
+            
+            toggle: function() {
+                const chatWindow = container.querySelector('.chat-window');
+                this.isOpen = !this.isOpen;
+                chatWindow.style.display = this.isOpen ? 'flex' : 'none';
+                
+                if (this.isOpen) {
+                    const input = document.getElementById('twintech-input');
+                    if (input) input.focus();
+                    const messagesContainer = document.getElementById('twintech-messages');
+                    if (messagesContainer) messagesContainer.scrollTop = messagesContainer.scrollHeight;
+                }
+            },
+            
+            close: function() {
+                const chatWindow = container.querySelector('.chat-window');
+                this.isOpen = false;
+                chatWindow.style.display = 'none';
+            },
+            
+            addMessage: function(content, isBot = false) {
+                const messagesContainer = document.getElementById('twintech-messages');
+                if (!messagesContainer) return;
+                
+                const messageDiv = document.createElement('div');
+                messageDiv.className = 'message ' + (isBot ? 'bot' : 'user');
+                messageDiv.innerHTML = '<div data-filename="pages/ChatbotStudio" data-linenumber="660" data-visual-selector-id="pages/ChatbotStudio660" class="message-content">' + this.escapeHtml(content) + '</div>';
+                messagesContainer.appendChild(messageDiv);
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            },
+            
+            sendMessage: function() {
+                const input = document.getElementById('twintech-input');
+                if (!input) return;
+                
+                const message = input.value.trim();
+                if (!message) return;
+                
+                this.addMessage(message, false);
+                input.value = '';
+                
+                setTimeout(() => {
+                    const responses = [
+                        "Thanks for your message! Our team will get back to you shortly.",
+                        "I've received your inquiry. How else can I help you today?",
+                        "Great question! Let me connect you with the right person.",
+                        "I'm here to help! What other questions do you have?",
+                        "Thanks for reaching out. Is there anything specific you'd like to know?"
+                    ];
+                    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+                    this.addMessage(randomResponse, true);
+                }, 1000);
+            },
+            
+            handleKeyPress: function(event) {
+                if (event.key === 'Enter') {
+                    this.sendMessage();
+                }
+            },
+            
+            escapeHtml: function(text) {
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            }
+        };
+        
+        setTimeout(() => {
+            window.TwinTechChatbot.addMessage(botData.initial_greeting, true);
+        }, 500);
+    }
+    
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initChatbot);
+    } else {
+        initChatbot();
+    }
+})();
+</script>
+<!-- TwinTech Chatbot Widget - End -->
+</body>
+</html>
